@@ -4,11 +4,13 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="494ecb17-d553-4c1f-850a-6e895dfa3f7f" name="Changes" comment="Added Homework 4">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Homework/4_table_homework.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Homework/formula-1-svgrepo-com.svg" afterDir="false" />
+    <list default="true" id="494ecb17-d553-4c1f-850a-6e895dfa3f7f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/1_1_headings_paragraphs_lineBreaks.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Homework/1_1_headings_paragraphs_lineBreaks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/1_2_lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Homework/1_2_lists.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/1_3_images.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Homework/1_3_images.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_Forms Homework/2_forms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forms Homework/2_forms.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +32,17 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="New-Homework-Branch" />
+        <entry key="$PROJECT_DIR$" value="Lecture_four_homework" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,7 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/4_Homework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Forms Homework" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -59,12 +68,13 @@
       <recent name="C:\Users\Ivanov\WebstormProjects\Code-Academy-Homeworks\4_Homework" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ivanov\WebstormProjects\Code-Academy-Homeworks\Forms Homework" />
       <recent name="C:\Users\Ivanov\WebstormProjects\Code-Academy-Homeworks\4_Homework" />
       <recent name="C:\Users\Ivanov\WebstormProjects\Code-Academy-Homeworks" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="2_forms.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Code-Academy-Homeworks/2_forms.html" useBuiltInWebServerPort="true">
+    <configuration name="2_forms.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Code-Academy-Homeworks/Forms Homework/2_forms.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -81,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657213993288</updated>
-      <workItem from="1657213995872" duration="5472000" />
+      <workItem from="1657213995872" duration="5813000" />
     </task>
     <task id="LOCAL-00001" summary="Homeworks from 2nd and 3rd Lectures">
       <created>1657214116905</created>
@@ -97,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657217469894</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Homework 4">
+      <created>1657219544294</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657219544294</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +131,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/New-Homework-Branch" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
