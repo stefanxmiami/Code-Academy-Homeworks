@@ -1,0 +1,69 @@
+body {
+    font-family: "Roboto Black";
+    text-align: center;
+    background: url("grey-oak-tree-hi.png") no-repeat center #132A13;
+    background-color: #333;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #FFD791 ;
+    padding: 20%;
+}
+
+span {
+    color: #9F7833;
+}
+
+.aboutMe {
+    color: #CDD1DE;
+    font-size: large;
+    font-weight: 900;
+    line-height: 2rem;
+    padding: 0 2rem;
+}
+
+#nestedSpan {
+    background-color: #FFD791;
+}
+
+article {
+    margin-top: 10%;
+}
+
+.hobbies {
+    background-color: #CDD1DE;
+    color: #413620;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.occupation {
+    background-color: darkorange;
+    color: black;
+    text-decoration: overline;
+}
+
+a:link {
+    color:#FFD791;
+    text-decoration: none;
+    letter-spacing: 1.5rem;
+}
+
+a:hover{
+    color: #9C6615;
+    text-shadow: 2px 2px  #FFD791
+}
+
+.achievements {
+    margin-top: 2rem;
+    font-size: x-large;
+    text-shadow: 2px 2px  #9C6615;
+}
+
+#footer {
+    margin: 2.5rem 0;
+    word-spacing: 0.25rem;
+    color: #FFD791;
+    font-style: italic;
+}
