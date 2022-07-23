@@ -4,13 +4,18 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="494ecb17-d553-4c1f-850a-6e895dfa3f7f" name="Changes" comment="">
+    <list default="true" id="494ecb17-d553-4c1f-850a-6e895dfa3f7f" name="Changes" comment="Homework 5">
+      <change afterPath="$PROJECT_DIR$/6_Homework/cars/caravan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_Homework/cars/dodge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_Homework/cars/hatch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_Homework/cars/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_Homework/cars/police.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_Homework/cars/prius.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_Homework/cars/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_Homework/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_Homework/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_Homework/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1_1_headings_paragraphs_lineBreaks.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Homework/1_1_headings_paragraphs_lineBreaks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1_2_lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Homework/1_2_lists.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1_3_images.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_Homework/1_3_images.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_Forms Homework/2_forms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forms Homework/2_forms.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +37,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lecture_four_homework" />
+        <entry key="$PROJECT_DIR$" value="Homework_5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,9 +73,11 @@
       <recent name="C:\Users\Ivanov\WebstormProjects\Code-Academy-Homeworks\4_Homework" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ivanov\WebstormProjects\Code-Academy-Homeworks\6_Homework\cars" />
+      <recent name="C:\Users\Ivanov\WebstormProjects\Code-Academy-Homeworks\6_Homework" />
+      <recent name="C:\Users\Ivanov\WebstormProjects\Code-Academy-Homeworks\5_Homework" />
       <recent name="C:\Users\Ivanov\WebstormProjects\Code-Academy-Homeworks\Forms Homework" />
       <recent name="C:\Users\Ivanov\WebstormProjects\Code-Academy-Homeworks\4_Homework" />
-      <recent name="C:\Users\Ivanov\WebstormProjects\Code-Academy-Homeworks" />
     </key>
   </component>
   <component name="RunManager">
@@ -79,6 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.2_forms.html" />
+        <item itemvalue="JavaScript Debug.2_forms.html" />
         <item itemvalue="JavaScript Debug.2_forms.html" />
       </list>
     </recent_temporary>
@@ -91,7 +100,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657213993288</updated>
-      <workItem from="1657213995872" duration="5813000" />
+      <workItem from="1657213995872" duration="5967000" />
+      <workItem from="1658172583305" duration="80000" />
+      <workItem from="1658507417703" duration="7823000" />
+      <workItem from="1658565934785" duration="12649000" />
     </task>
     <task id="LOCAL-00001" summary="Homeworks from 2nd and 3rd Lectures">
       <created>1657214116905</created>
@@ -114,7 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657219544294</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Renamed and Re-ordered files and folders">
+      <created>1657219974295</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657219974295</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Homework 5">
+      <created>1658566143687</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658566143687</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +173,8 @@
     <MESSAGE value="Homeworks from 2nd and 3rd Lectures" />
     <MESSAGE value="Added table styling" />
     <MESSAGE value="Added Homework 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Homework 4" />
+    <MESSAGE value="Renamed and Re-ordered files and folders" />
+    <MESSAGE value="Homework 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 5" />
   </component>
 </project>
