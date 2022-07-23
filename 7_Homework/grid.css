@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-areas:
+    'header  header'
+    'nav  article'
+    'footer  footer';
+    height: 94vh;
+    overflow-y:hidden;
+    font-family: "Source Sans Pro", serif;
+}
+
+header {
+    grid-area: header;
+    font-size: xx-large;
+    color: #d8f3dc;
+}
+
+nav {
+    grid-area: nav;
+}
+article {
+    grid-area: article;
+}
+footer {
+    grid-area: footer;
+}
+
+/* sidebar */
+nav {
+    background-color: #d8f3dc;
+    padding-top: 30px;
+    line-height: 3rem;
+    border-right: 1px solid;
+    margin-top: 100px;
+    width: 30vw;
+}
+a {
+    text-decoration: none;
+    font-size: larger;
+    color: #081c15;
+    padding-left: 5rem;
+
+}
+
+.content{
+    background-color: #d8f3dc;
+    margin-top: 80px;
+    padding: 50px;
+    overflow-y: auto;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+section {
+    display: grid;
+    background-color: #b7e4c7;
+    padding: 5%;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    grid-row: 1/2;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.who-and-when{
+    grid-row: 1/2;
+    width: 250px;
+}
+
+.account-name-post{
+    width: 150px;
+    height: 25px;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+.time-and-place{
+    grid-area: time;
+    width: 105px;
+    height: 20px;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+section p {
+    grid-area: content;
+    margin-left: 20px;
+}
+
+.picture-post {
+    display: inline-block;
+    grid-column: 2;
+    margin: 5px;
+    border-radius: 20px;
+    width: 1000px;
+}
+
+/* header and footer */
+header, footer {
+    padding: 30px;
+    background-color: #1b4332;
+    color: #d8f3dc;
+    text-align: center;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
