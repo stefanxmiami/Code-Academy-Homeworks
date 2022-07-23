@@ -1,0 +1,140 @@
+body{
+    background: #fffcf2;
+}
+div {
+    float: left;
+    left: 33%;
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    padding: 1em;
+    margin: 10rem 0;
+    border: solid 1px;
+}
+
+.block_one {
+    overflow: hidden;
+    transition: width 1.5s;
+    background: #eb5e28;
+    color: #252422;
+}
+.block_one:hover {
+    width: 33%;
+}
+
+.block_two {
+    overflow-y: scroll;
+    overflow-x: auto;
+    transition: transform 1.5s;
+    transform-origin: center;
+    background: #252422;
+    color: #ccc5b9;
+}
+.block_two:hover {
+    transform: rotate(90deg);
+}
+
+.block_three {
+    overflow: visible;
+    transition: width 1.5s;
+    background: #403d39;
+    color: #ccc5b9;
+}
+.block_three:hover {
+    width: 33%;
+}
+/* ------------------------------------------------------------ */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Black";
+}
+nav {
+    width: 100%;
+    z-index: 3;
+    background-color: #03071e;
+    margin: 0;
+    padding: 0;
+    color: #faa307;
+    text-align: center;
+}
+
+nav:hover {
+    transition: z-index 1.5s, backgroud-color 5s, color 2s;
+    z-index: 1;
+    background-color: #faa307;
+    color: #03071e;
+    text-align: center;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+}
+
+.inline_block {
+    margin: 1rem;
+    padding: 0;
+    z-index: 2;
+    display: inline-block;
+    width: 15vw;
+    height: 15vw;
+    text-align: center;
+}
+
+@keyframes first {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+#one {
+    animation-name: first;
+    animation-duration: 2s;
+    background-color: #9d0208;
+}
+
+@keyframes second {
+    50% {
+        background-color: #d00000;
+    }
+    100% {
+        background-color: #dc2f02;
+    }
+}
+
+#two {
+    animation-name: second;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    background-color: #e85d04;
+}
+
+@keyframes third {
+    100% {
+        transform: translateX(23.5vw) translateY(7.5vw) scale(2);
+    }
+}
+
+#three {
+    background-color: #e85d04;
+    animation-name: third;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fourth {
+    100% {
+        transform: translateX(-18vw);
+    }
+}
+
+#four {
+    background-color: #f48c06;
+    animation-name: fourth;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
