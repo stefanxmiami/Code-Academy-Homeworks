@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/10af787d6f.js" crossorigin="anonymous"></script>
+</head>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<body class="bg-body">
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="javascript:void(0)"><i class="fa-solid fa-compass"></i> Compass</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-bg-light" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="table.html">Table</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Friends</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-primary" type="button">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mb30">
+            <div class="profile-picture">
+                <img src="img/DhalsimP.png" alt="">
+                <h2 class="card-title text-center mb20">Stefan Ivanov</h2>
+            </div>
+        </div>
+        <div class="col-md-4 mb30">
+            <div class="stream-post">
+                <div class="sp-author">
+                    <a href="#" class="sp-author-avatar"><img src="img/DhalsimP.png" alt=""></a>
+                    <h2 class="sp-author-name">Stefan Ivanov</h2></div>
+                <div class="sp-content">
+                    <div class="sp-info">1h&emsp;•&emsp;Veles</div>
+                    <p class="sp-paragraph mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam doloribus, est hic itaque, natus non omnis quasi reiciendis repellat sit tempore veniam. Ad eius excepturi ipsam iste nemo nihil nulla obcaecati optio quaerat rerum? Labore non perspiciatis unde! Ab aliquid architecto, assumenda cum dolore dolorum eius explicabo itaque natus nemo neque non placeat quibusdam ratione sunt vel veritatis voluptatem?</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb30">
+            <!-- Tab panes -->
+            <div class="tab-content admin-tab-content pt30 biography">
+                <h2>Biography</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolor dolorem minus praesentium provident quasi tempore. Asperiores aspernatur debitis delectus distinctio dolor dolorum, excepturi exercitationem hic inventore ipsa ipsam iure libero magni modi nemo nulla numquam perferendis qui quis totam ullam, veritatis voluptatibus! Enim fuga molestiae neque officia perspiciatis quisquam quod totam! Accusamus cumque dignissimos error eum illo nesciunt odit tempora voluptatem? Commodi ea error id iusto laboriosam nobis, possimus quam ut veritatis. Alias animi blanditiis doloremque eligendi enim error esse</p>
+                <h3>Birthday</h3>
+                <p>03 December 1999</p>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="fixed-bottom">Stefan Ivanov &copy; 2022</footer>
+</body>
+</html>

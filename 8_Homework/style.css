@@ -3,6 +3,7 @@ body{
 }
 .post-editor,
 .stream-post {
+    margin-top: 10px;
     padding: .75rem;
     background: #d8f3dc;
     border: 1px solid #eceeef;
@@ -56,6 +57,15 @@ body{
     border-radius: 20px;
 }
 
+.profile-picture{
+    margin-top: 10px;
+   text-align: center;
+}
+
+.profile-picture > img{
+    border-radius: 20px;
+}
+
 .sp-content .sp-info {
     font-size: .875rem;
     color: #333333;
@@ -63,13 +73,14 @@ body{
     top: -3rem;
     left: 80px
 }
+
 footer {
-    bottom: 0;
     left: 0;
+    bottom: 0;
+    height: 35px;
     width: 100%;
-    color: #d8f3dc;
-    padding: 20px;
     background-color: #1b4332;
+    color: #d8f3dc;
     text-align: center;
 }
 
