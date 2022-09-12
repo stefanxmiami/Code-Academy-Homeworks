@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<style>
+    #contact {
+        color: red;
+    }
+
+    .with-gap{
+        background-color: #212121 !important;
+    }
+</style>
+<body>
+<div style="margin: 20px">
+    <button class="btn grey darken-4" id="home" onclick="window.location.href = 'calculator.html'">Calculator</button>
+    <button class="btn grey darken-4" id="about" onclick="window.location.href = 'about.html'">About</button>
+    <button class="btn grey darken-4" id="contact" onclick="window.location.href = 'contact.html'">Contact</button>
+</div>
+<form name="form" id="" onsubmit="validation(event)">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div id="main" class="card">
+                    <div class="card-content">
+                        <span class="card-title">Contact</span>
+                        <div class="row">
+                            <form name="form" action="" id="task" onsubmit="validation(event)">
+                                <div class="input-field col s12">
+                                    <input type="text" name="firstName" id="firstName" required onkeydown="preventNumber(event)" onkeyup="preventNumber(event)">
+                                    <label for="firstName">First Name</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" name="lastName" id="lastName" required onkeydown="preventNumber(event)" onkeyup="preventNumber(event)">
+                                    <label for="lastName">Last Name</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" name="address" id="address" required onkeydown="preventNumber(event)" onkeyup="preventNumber(event)">
+                                    <label for="address">Address</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" name="email" id="email" required>
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input type="text" name="mobile" id="mobile" required pattern=".{9,9}" oninput="this.value=this.value.replace(/[^0-9]/g,'')"><br />
+                                    <label for="mobile">Phone</label>
+                                </div>
+                                <p>
+                                    <label>
+                                        <input class="with-gap" type="radio" name="gender" id="male" checked required />
+                                        <span>Male</span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        <input class="with-gap grey darken-4" type="radio" name="gender" id="female" checked required />
+                                        <span>Female</span>
+                                    </label>
+                                </p>
+
+                                <input type="submit" value="Submit" class="btn">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

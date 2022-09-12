@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<style>
+    #home {
+        color: #dd2c00;
+    }
+</style>
+<body>
+<div style="margin: 20px">
+    <button class="btn grey darken-4" id="home" onclick="window.location.href = 'calculator.html'">Calculator</button>
+    <button class="btn grey darken-4" id="about" onclick="window.location.href = 'about.html'">About</button>
+    <button class="btn grey darken-4" id="contact" onclick="window.location.href = 'contact.html'">Contact</button>
+</div>
+<br>
+<div style="margin: 10px">
+    <button class="btn grey darken-4" id="start" onclick="numberPrompt()">Start</button>
+    <div style="margin: 20px" id="calc">0</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
