@@ -26,44 +26,57 @@
             </svg>
         </button>
     </form>
+    <section id="userDetails-small">
+        <div id="notifications-small">
+            <i class="fa-regular fa-bell fa-2xl"></i>
+        </div>
+        <div id="loggedUser-small">
+            <h3>User Name</h3>
+        </div>
+        <div id="loggedUserImg-small">
+            <img src="images/loggedin.jpg" alt="">
+        </div>
+    </section>
     <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" display="none">
         <symbol id="search" viewBox="0 0 32 32">
             <path d="M 19.5 3 C 14.26514 3 10 7.2651394 10 12.5 C 10 14.749977 10.810825 16.807458 12.125 18.4375 L 3.28125 27.28125 L 4.71875 28.71875 L 13.5625 19.875 C 15.192542 21.189175 17.250023 22 19.5 22 C 24.73486 22 29 17.73486 29 12.5 C 29 7.2651394 24.73486 3 19.5 3 z M 19.5 5 C 23.65398 5 27 8.3460198 27 12.5 C 27 16.65398 23.65398 20 19.5 20 C 15.34602 20 12 16.65398 12 12.5 C 12 8.3460198 15.34602 5 19.5 5 z" />
         </symbol>
     </svg>
-    <section id="groups">
-        <h3>Your groups</h3>
-        <ul>
-            <li>
-                <img
-                        height="20px"
-                        src="https://brandlogos.net/wp-content/uploads/2022/05/figma-logo_brandlogos.net_6n1pb.png"
-                /><span>Figma Community</span>
-            </li>
-            <li>
-                <img
-                        height="20px"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/2267px-Sketch_Logo.svg.png"
-                /><span>Sketch Community</span>
-            </li>
-        </ul>
-    </section>
-    <section id="friends">
-        <h3>Friends</h3>
-    </section>
+    <div class="wrapper">
+        <section id="groups">
+            <h3>Your groups</h3>
+            <ul>
+                <li>
+                    <img
+                            height="20px"
+                            src="https://brandlogos.net/wp-content/uploads/2022/05/figma-logo_brandlogos.net_6n1pb.png"
+                    /><span>Figma Community</span>
+                </li>
+                <li>
+                    <img
+                            height="20px"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/2267px-Sketch_Logo.svg.png"
+                    /><span>Sketch Community</span>
+                </li>
+            </ul>
+        </section>
+        <section id="friends">
+            <h3>Friends</h3>
+        </section>
+    </div>
 </aside>
 <main>
     <header>
         <nav></nav>
     </header>
     <section id="friends-stories">
-        <div class="story">
+        <div class="story-add">
             <div class="story-img-wrapper">
-                <img src="images/img1.jpg"/>
+                <img src="images/loggedin.jpg"/>
             </div>
             <h5>Name</h5>
         </div>
-        <div class="story">
+        <!--<div class="story">
             <div class="story-img-wrapper">
                 <img src="images/img2.jpg"/>
             </div>
@@ -104,7 +117,7 @@
                 <img src="images/img8.jpg"/>
             </div>
             <h5>Name</h5>
-        </div>
+        </div>-->
     </section>
     <section class="articles">
         <article>
@@ -127,7 +140,7 @@
                         dolor quia illum tenetur hic, accusamus voluptates vel dolores,
                         doloremque magni, maiores tempora placeat dolorum distinctio ea
                         illo sed corporis rerum.
-                    </p>
+                    </p><button>read more</button>
                 </section>
             </section>
         </article>
@@ -164,6 +177,8 @@
         </div>
         <div id="loggedUser">
             <h3>User Name</h3>
+        </div>
+        <div id="loggedUserImg">
             <img src="images/loggedin.jpg" alt="">
         </div>
     </section>
@@ -186,7 +201,7 @@
         <section id="write-comment">
             <input id="comment-input" type="text" placeholder="Add your comment"/>
             <button>
-                <i class="fa-regular fa-paper-plane fa-2xl"></i>
+                <i class="fa-regular fa-paper-plane fa-xl"></i>
             </button>
         </section>
     </section>
